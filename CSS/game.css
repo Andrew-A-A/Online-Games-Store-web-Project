@@ -1,0 +1,73 @@
+body{
+	background-color: black;
+	background-image: url("../pic/Wallpaper.jpg");
+	background-attachment: fixed;
+
+}
+h1{
+	color: rgb(7, 121, 121);
+	font-size: 50px;
+	padding: top 50px;
+	text-align: center;
+
+}
+h2{
+	font-size: xx-large;
+}
+ul{
+	font-size: x-large;
+	color: rgba(255, 255, 255, 0.473);
+}
+p{
+	font-size: x-large;
+	color: rgba(255, 255, 255, 0.473);
+}
+.menu{
+	font-size: x-large;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(233, 83, 238, 0.486);
+	position: sticky;
+	top: 0;
+
+word-spacing: 50px;
+background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
+}
+.menu a{
+	text-decoration: none;
+	-webkit-text-stroke: 0.2px rgb(44, 5, 107);
+	text-align: center;
+	padding: 30px;
+	font-family: fantasy;
+}
+.menu a:hover{color: rgb(72, 132, 243); }
+.menu .Home:hover{color: rgb(211, 81, 180); }
+.menu .Home {
+	font-size: xx-large;
+	color: black;
+
+}
+.Price{
+	font-size: xx-large;
+}
+button:hover {
+			 opacity: 0.7;
+	 }
+ .Buybtn { background-color: #e882ae;
+	width: 20%;
+ color: Black;
+ padding: 10px;
+ margin: -5% 5%;
+ border: none;
+ float: right;
+ cursor: pointer;
+ font-size: 20px;
+ font-style: oblique;
+
+		}
+
+
+
+.poster{
+padding-left: 42%;
+}

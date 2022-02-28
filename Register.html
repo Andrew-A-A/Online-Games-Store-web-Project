@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+       <title>Game Store</title>
+       <meta name="description" content="This is my game store" />
+       <style></style>
+       <script></script>
+       <link rel="stylesheet" href="CSS/form.css" />
+    </head>
+    <body>
+        <center> <h1 id="hi">  Register  </h1> </center>
+
+        <form onsubmit ="return verifyPassword()">
+            <label> Name </label>
+            <div>
+                <input type="text" required placeholder="enter your name">
+            </div>
+            <br>
+            <label>Username</label>
+            <div>
+                <input type="text" required placeholder="enter a username">
+            </div>
+            <br>
+            <label>Email address</label>
+            <div>
+                <input type="email" required placeholder="enter your email address">
+            </div>
+            <br>
+            <label>Password</label>
+            <div>
+                <!-- Password field -->
+                 <input class="checkps" type="password" placeholder="enter your password" id="myInput">
+                 <span id="message" style="color:red"></span> <br><br>
+
+<!-- An element to toggle between password visibility -->
+                <input type="checkbox" class="ch" onclick="myFunction()">Show Password
+            </div>
+            <br>
+            <label>Confirm password</label>
+            <div>
+                <input class="checkp" type="password" required placeholder="enter your password again" id="myInputs">
+            </div>
+            <br>
+            <button type="submit" >Sign up</button>
+            <script src="js/form.js"></script>
+        </form> 
+    </body>
+</html>

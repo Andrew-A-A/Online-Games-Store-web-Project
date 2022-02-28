@@ -1,0 +1,60 @@
+label{
+    color: white;
+}
+h1{
+    color: white;
+}
+body{
+    background-image: url('cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg');
+    background-size: 100%;
+    font-family: sans-serif;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 0px 12px 5px;
+    margin: 6px 0px;
+    border: 1px solid rgb(1, 2, 17);
+    border-radius: 4px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 0px 12px 5px;
+    margin: 6px 0px;
+    border: 1px solid rgb(3, 4, 27);
+    border-radius: 4px;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 0px 12px 5px;
+    margin: 6px 0px;
+    border: 1px solid rgb(17, 18, 37) ;
+    border-radius: 4px;
+    font:white;
+    
+}
+button{
+    width: 50%;
+    background-color:rgb(150, 221, 243);
+    border: 1px solid rgb(1, 2, 20);
+    color:black;
+    padding: 12px 0px 12px 5px;
+    margin: 5px 5px;
+    border-radius: 4px;
+}
+form {
+
+    width: 60%;
+    border-radius: 10px;
+    background-color:rgba(23, 99, 143, 0.246);
+    padding: 30px;
+    position: relative;
+
+    
+    
+    margin-left: 270px;
+    margin-top: 100px;
+}
+.ch{
+    color: white;
+}
+

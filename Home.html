@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<header>
+    <h1 style="stroke: blue;">A.S<br> Games Store</h1>
+    <meta charset="utf-8">
+<title>A.S Store</title>
+</header>
+    <link rel="Stylesheet" href="CSS/Home.css">
+    <script src="https://kit.fontawesome.com/4775a4d464.js" crossorigin="anonymous"></script>
+<body>
+  
+<div class="menu">
+    <a class="Home" href="Home.html">Home</a>
+    <a href="Action.html">Action</a> 
+    <a href="Racing.html">Racing</a> 
+    <a href="Horror.html">Horror</a>
+    <a href="Simulation.html">Simulation</a>  
+    <a href="Strategy.html">Strategy</a> 
+    <a href="Casual.html">Casual</a>
+ 
+</div>
+   <!-- Container for the image gallery -->
+   <div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <a href="Games/Bf v.html"><img src="pic/Battlefield V 1.jpg" style="width:100% "></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+       <a href="Games/Doom.html"> <img src="pic/Doom 1.jpg" style="width:100%"></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <a href="Games/LOF2.html"><img src="pic/Lof2.jpg" style="width:100%"></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <a href="Games/NFS H.html"><img src="pic/NfS heat 1.jpg" style="width:100%"></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <a href="Games/Outlast2.html"><img src="pic/Outlast II 1.jpg" style="width:100%"></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <a href="Games/NFS P.html"><img src="pic/NFS payback 2.jpg" style="width:100%"></a>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+   
+    <!-- Thumbnail images -->
+    <div class="column">
+     <div class="firstimg"> 
+         <div class="row">
+        <img class="demo cursor" src="pic/Battlefield V 1.jpg" style="width:100%" onclick="currentSlide(1)" alt="<h2>Battlefield V</h2> This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict across land, air, and sea with all gameplay content unlocked from the get-go.<br> Choose from the complete arsenal of weapons, vehicles, and gadgets, and immerse yourself in the hard-fought battles of World War II.<br> Stand out on the battlefield with the complete roster of Elites and the best customization content of Year 1 and Year 2. ">
+     </div>
+    </div>
+      <div class="row">
+        <img class="demo cursor" src="pic/Doom 1.jpg" style="width:100%" onclick="currentSlide(2)" alt="<h2>DOOM Eternal</h2> Experience the ultimate combination of speed and power in DOOM Eternal - the next leap in push-forward, first-person combat.<br>
+        Armed with a shoulder-mounted flamethrower, retractable wrist-mounted blade, upgraded guns and mods, and abilities, you're faster, stronger, and more versatile than ever. ">
+      </div>
+      <div class="row">
+        <img class="demo cursor" src="pic/Lof2.jpg" style="width:100%" onclick="currentSlide(3)" alt="<h2>Layers of Fear 2</h2> The cameras are all focused on you; the center of the scene. Not just in character, you are the character. The part to play is singularly yours. Written just for you. You are met with silence. No barking orders from the director. No call to action that you need to become this version of yourself. The demand to act fills your mind, but the script pages hold no words.a ">
+      </div>
+      <div class="row">
+        <img class="demo cursor" src="pic/NfS heat 1.jpg" style="width:100%" onclick="currentSlide(4)" alt="<h2>Need for Speed heat </h2>Hustle by day and risk it all at night in Need for Speed™ Heat, a white-knuckle street racer, where the lines of the law fade as the sun starts to set.<br> By day, Palm City hosts the Speedhunter Showdown, a sanctioned competition where you earn Bank to customize and upgrade your high-performance cars.<br> At night, ramp up the intensity in illicit street races that build your reputation, getting you access to bigger races and better parts. <br>But stay ready – cops are waiting and not all of them play fair.  ">
+      </div>
+      <div class="row">
+        <img class="demo cursor" src="pic/Outlast II 1.jpg" style="width:100%" onclick="currentSlide(5)" alt="<h2>Outlast II</h2> Outlast 2 is the sequel to the acclaimed survival horror game Outlast. Set in the same universe as the first game, but with different characters and a different setting, Outlast 2 is a twisted new journey into the depths of the human mind and its dark secrets. ">
+      </div>
+      <div class="row">
+          <div class="lastimg">
+        <img class="demo cursor" src="pic/NFS payback 2.jpg" style="width:100%" onclick="currentSlide(6)" alt="<h2>Need for speed payback</h2> Set in the underworld of Fortune Valley, you and your crew were divided by betrayal and reunited by revenge to take down The House, a nefarious cartel that rules the city’s casinos, criminals and cops. In this corrupt gambler’s paradise, the stakes are high and The House always wins.">
+      </div>
+    </div>
+    </div>
+  
+  <!-- Image text -->
+  <div class="caption-container">
+      <p id="caption"></p>
+          </div> 
+  </div> 
+        <script src="js/main.js"></script>
+        
+        <h2 class="Deals" >Today's Deals :</h2>
+        <a href="Games/RE8.html" class="Game" id="1" >
+          <div class="grid-container">
+              <img class="Poster" src="Pic/RE8.jpeg" ></img>
+              <div class="Name">Resident Evil 8</div>
+              <div class="Price"><del>900 L.E</del> <br>800 L.E</div>
+            </div>
+          </a>
+            
+        <a href="Games/As.html" class="Game" id="2">
+          <div class="grid-container">
+              <img class="Poster" src="Pic/As.jpg" ></img>
+              <div class="Name">Assasin's Creed Valhala</div>
+              <div class="Price"><del>650 L.E</del> <br>500 L.E</div>
+             
+            </div>
+          </a>
+            <a href="Games/Farcry.html" class="Game" id="3">
+              <div class="grid-container">
+                  <img class="Poster" src="Pic/R.png" ></img>
+                  <div class="Name">Farcry 6</div>
+                  <div class="Price"><del>600 L.E</del><Br>400 L.E </div>
+                   
+                </div>
+              </a>
+                <a href="Games/forzaM.html" class="Game" id="4">
+                  <div class="grid-container">
+                      <img class="Poster" src="Pic/Forza_5.jpg" ></img>
+                      <div class="Name">Forza Motosport 5</div>
+                      <div class="Price"><del>700 L.E</del><br>500 L.E</div>
+
+                      </div>
+                    </div>
+                    </a>
+                   <div  id="b1" id="icon" ><button onclick= del()> <div ></div><i  class="fas fa-times"></i></div></button></div>
+        <div id="b2" id="icon"><button onclick= del2()> <div ></div><i  class="fas fa-times"></i></div></button></div>
+        <div id="b3" id="icon"><button onclick= del3()> <div ></div><i  class="fas fa-times"></i></div></button></div>
+        <div id="b4" id="icon"><button onclick= del4()> <div ></div><i  class="fas fa-times"></i></div></button></div>
+        <script src="js/login.js"></script>
+        
+</body>
+</html>

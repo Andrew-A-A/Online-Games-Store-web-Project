@@ -1,0 +1,69 @@
+
+Body {
+  font-family: sans-serif;
+  background-image:url(cool-geometric-triangular-figure-neon-laser-light-great-backgrounds.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.form-center{
+  width: 40%;
+    border-radius: 10px;
+    background-color:rgba(23, 99, 143, 0.246);
+    padding: 30px;
+    position: relative;
+    margin: auto;
+
+}
+
+h1{
+
+   color: white;
+}
+
+label{
+  color:white;
+}
+
+a{
+  color: white;
+}
+
+button {
+       background-color: #EAACF5;
+       width: 10%;
+        color: Black;
+        padding: 10px;
+        margin: 5px 0px;
+        border: none;
+        float:none;
+        cursor: pointer;
+         }
+
+
+button[type=checkbox] {
+  color: white;
+}
+
+
+
+
+          input[type=text], input[type=password] {
+            width: 50%;
+            margin: 8px 0;
+            padding: 10px 12px;
+            display: inline-block;
+            border: 2px solid aqua;
+            box-sizing: border-box
+          }
+
+          button:hover {
+                 opacity: 0.7;
+             }
+           .cancelbtn {
+                 width: auto;
+                 padding: 10px;
+                 margin: 10px 0px;
+                 float: none;
+             }

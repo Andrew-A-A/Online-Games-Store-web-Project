@@ -1,0 +1,77 @@
+*{
+	text-decoration: none;
+}
+body{
+	background-color: black;
+	background-image: url("../Pic/Wallpaper.jpg");
+	background-attachment: fixed;
+
+}
+h1{
+    -webkit-text-stroke: 0.6px rgb(25, 0, 255);
+	color: rgb(4, 161, 161);
+	text-shadow: black ;
+	font-size: 50px;
+	text-align: center;
+	font-family: cursive;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}	
+
+.menu{
+	font-size: x-large;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(233, 83, 238, 0.486);
+	position: sticky;
+	top: 0;
+	
+word-spacing: 50px;
+background-image:linear-gradient(rgb(44, 44, 247) , rgba(174, 122, 243, 0.644));
+}
+.menu a{
+	text-decoration: none;
+	-webkit-text-stroke: 0.2px rgb(44, 5, 107);
+	text-align: center;
+	padding: 30px;
+	font-family: fantasy;
+}
+.menu a:hover{color: rgb(72, 132, 243); }
+.menu .Home:hover{color: rgb(211, 81, 180); }
+.menu .Home {
+	font-size: xx-large;
+	color: black;
+	
+}
+.grid-container{
+	width: 100px;
+}
+.Game{
+display: -webkit-inline-box;
+}
+.grid-container{
+margin-left: 75px;
+background-color: rgba(201, 201, 201, 0.616);
+margin-top: 50px;
+width: 195px;
+border-style                :   solid;
+border-width                :   8px;
+border-color                :   #3c7bf14d;
+border-radius               :   3px;
+
+}
+
+.Game .grid-container .Name {
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grid-container .Name:hover{
+	color:rgba(255, 0, 212, 0.555);
+}
+.grid-container .Price{
+	font-weight:bold;
+	text-align: center;
+}
+a:hover{
+	color:rgb(243, 93, 223);
+}
